@@ -1,0 +1,6 @@
+<script lang="ts" src="./index.ts"></script>
+<style lang="stylus" src="./style.styl"></style>
+
+<template lang="pug">
+
+</template>
