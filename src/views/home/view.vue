@@ -2,6 +2,7 @@
 <style lang="stylus" src="./style.styl"></style>
 
 <template lang="pug">
+Header()
 .home
   GameCard(
     title = "Curabitur arcu erat"

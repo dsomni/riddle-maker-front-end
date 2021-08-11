@@ -2,5 +2,12 @@
 <style lang="stylus" src="./style.styl"></style>
 
 <template lang="pug">
+.headerWrapper
+  .header
+    .title
+
+    .refs
+      .games
+      .about
 
 </template>

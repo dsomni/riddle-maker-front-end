@@ -1,8 +1,9 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'CreateButton',
+  name: 'CreateRef',
   props: {
-    msg: String
+    msg: String,
+    href: String
   }
 });

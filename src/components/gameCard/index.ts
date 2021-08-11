@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import CreateButton from '@/components/createButton/view.vue';
+import CreateRef from '@/components/createRef/view.vue';
 
 export default defineComponent({
   name: 'GameCard',
@@ -8,6 +8,6 @@ export default defineComponent({
     info: String,
   },
   components: {
-    CreateButton
+    CreateRef
   }
 });
