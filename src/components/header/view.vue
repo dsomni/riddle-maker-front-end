@@ -4,10 +4,10 @@
 <template lang="pug">
 .headerWrapper
   .header
-    .title
+    .title Riddle Maker
 
     .refs
-      .games
-      .about
+      .games Games
+      .about About
 
 </template>

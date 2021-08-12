@@ -1,10 +1,28 @@
 .headerWrapper
-  position absolute
+  position fixed
   top 0
   left 0
-  right 0
   z-index 1
 
   .header
+    width 100vw
     height 65px
     background-color hsla(169, 96%, 48%, 1)
+    display flex
+    justify-content space-between
+    align-content center
+    color #FFFFFF
+
+    .refs
+      display flex
+
+    .title
+      font-size 25px
+      padding 12px 40px 28px 30px
+      font-family: Pacifico;
+      letter-spacing 0.125em
+
+    .games, .about
+      font-size 20px
+      padding 24px 40px 21px 30px
+
