@@ -1,7 +1,13 @@
 .gameCardWrapper
   position relative
-  padding 75px 15% 75px 40px
+  padding-left 5%
+  padding-right 15%
+  margin-bottom 75px
   text-align center
+
+  &.right
+    padding-right 5%
+    padding-left 30%
 
   .Card
     max-width 1100px
@@ -31,6 +37,7 @@
       max-width 100%
       height auto
       overflow hidden
+      margin-top 5%
       img
         position relative
         width 70%
@@ -39,17 +46,23 @@
       width 100%
       margin-top 1rem
       margin-bottom 3rem
-      font-size 2rem
+      font-size 2remd
 
 
 @media only screen  and (max-width: 1000px)
   .gameCardWrapper
-    padding 50px 40px 50px 5%
+    padding-left 5%
+    padding-right 40px
     width 80%
+
+    &.right
+      padding-left 5%
+      padding-right 40px
 
     .Card
       flex-direction column
       min-width 500px
+      overflow hidden
 
       .TextSide
         margin 0

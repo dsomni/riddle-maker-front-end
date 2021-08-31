@@ -5,7 +5,8 @@
 .gameCardsListWrapper
     GameCard(
         v-for = "(card, index) in cardsList"
-        :title = "item.title"
-        :info = "item.info"
+        :title = "card.title"
+        :info = "card.info"
+        :class = "{ right : (index%2) }"
       )
 </template>
