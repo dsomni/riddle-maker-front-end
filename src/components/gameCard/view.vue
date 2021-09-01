@@ -9,10 +9,10 @@
       .CardInfo {{ info }}
     .ImgSide
       img(
-        :src = "imgURL"
+        :src = "img_url"
         )
     .CreateRefContainer
       CreateRef(
-        :url = "pageURL"
+        :url = "page_url"
       )
 </template>
