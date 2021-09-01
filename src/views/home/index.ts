@@ -15,15 +15,21 @@ export default defineComponent({
       return [
         {
           title: "Curabitur arcu erat",
-          info: "Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada."
+          info: "Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada.",
+          imgURL: "https://www.svgrepo.com/show/45383/sudoku.svg",
+          pageURL: "lol"
         },
         {
           title: "C",
-          info: "Pellentegna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada."
+          info: "Pellentegna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada.",
+          imgURL: "https://www.svgrepo.com/show/45383/sudoku.svg",
+          pageURL: "kek"
         },
         {
           title: "C",
-          info: "porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada."
+          info: "porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada.",
+          imgURL: "https://www.svgrepo.com/show/4057/calendar.svg",
+          pageURL: "fff"
         },
       ];
     }

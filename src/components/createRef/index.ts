@@ -4,6 +4,6 @@ export default defineComponent({
   name: 'CreateRef',
   props: {
     msg: String,
-    href: String
+    url: String
   }
 });

@@ -6,6 +6,8 @@ export default defineComponent({
   props: {
     title: String,
     info: String,
+    imgURL: String,
+    pageURL: String
   },
   components: {
     CreateRef

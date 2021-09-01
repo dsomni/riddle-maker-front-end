@@ -3,12 +3,16 @@
 
 <template lang="pug">
 .gameCardWrapper
-  .Card(:class="{ left: isLeft }")
+  .Card
     .TextSide
       .CardTitle {{ title }}
       .CardInfo {{ info }}
     .ImgSide
-      img(src="https://www.svgrepo.com/show/45383/sudoku.svg")
+      img(
+        :src = "imgURL"
+        )
     .CreateRefContainer
-      CreateRef
+      CreateRef(
+        :url = "pageURL"
+      )
 </template>

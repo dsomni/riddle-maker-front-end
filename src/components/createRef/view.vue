@@ -3,6 +3,6 @@
 
 <template lang="pug">
 a.CreateRef(
-    href = href ? href : "#"
+    :href = "'#/'+url"
     ) {{ msg ? msg : "Create" }}
 </template>
